@@ -1,9 +1,9 @@
 #!/system/bin/sh
 MODDIR=${0%/*}
-INFO=/data/adb/modules/.gboardlite_apmods-files
-MODID=gboardlite_apmods
+INFO=/data/adb/modules/.gboardlite-files
+MODID=gboardlite
 LIBDIR=/system
-MODPATH=/data/adb/modules/gboardlite_apmods
+MODPATH=/data/adb/modules/gboardlite
 MODDIR="${0%/*}"
 API=$(grep_prop ro.build.version.sdk)
 CONFIG_FILE="$MODDIR/.latin"

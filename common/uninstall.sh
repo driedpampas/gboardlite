@@ -1,9 +1,9 @@
 #!/system/bin/sh
 MODDIR=${0%/*}
-INFO=/data/adb/modules/.gboardlite_apmods-files
-MODID=gboardlite_apmods
+INFO=/data/adb/modules/.gboardlite-files
+MODID=gboardlite
 LIBDIR=/system
-MODPATH=/data/adb/modules/gboardlite_apmods
+MODPATH=/data/adb/modules/gboardlite
 if [ -f $INFO ]; then
   while read LINE; do
     if [ "$(echo -n $LINE | tail -c 1)" == "~" ]; then

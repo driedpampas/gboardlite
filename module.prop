@@ -1,9 +1,7 @@
-id=gboardlite_apmods
+id=gboardlite-en
 name=Gboard Lite Online Installer
-version=Beta 0.4
-versionCode=104
+version=Beta
+versionCode=104.en
 author=@apmods
-description= [Para armv7 y armv8 - Android 8.1 y superiores] Para restaurar el tema dinamico en A12+ vaya a temas en configuracion de gboard o tambien para ocultar el icono en el launcher
-updateJson=https://raw.githubusercontent.com/artproducer/gboardlite/main/update.json
-support=https://t.me/apmods
-about=https://paypal.me/apmodsgroup
+description= [For armv7 & armv8 || Android 8.1 +] To restore the dynamic theme on A12+ or to hide the icon in the launcher go to Gboard settings.
+updateJson=https://raw.githubusercontent.com/driedpampas/gboardlite/main/update.json

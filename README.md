@@ -1,2 +1,3 @@
 # Gboard Lite [Module KernelSU/Magisk]
-Sponsor Gboard Lite Module
+
+Forked from [artproducer/gboardlite](https://github.com/artproducer/gboardlite).
