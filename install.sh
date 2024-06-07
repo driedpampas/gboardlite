@@ -17,6 +17,7 @@ print_modname() {
   MODNAME=$(grep_prop name $TMPDIR/module.prop)
   MODVER=$(grep_prop version $TMPDIR/module.prop)
   DV=$(grep_prop author $TMPDIR/module.prop)
+  TL=$(grep_prop translator $TMPDIR/module.prop)
   AndroidVersion=$(getprop ro.build.version.release)
   Device=$(getprop ro.product.device)
   Model=$(getprop ro.product.model)
@@ -35,6 +36,9 @@ print_modname() {
   sleep 0.01
   echo -e "- Author：\c"
   echo "$DV"
+  sleep 0.01
+  echo -e "- Translator：\c"
+  echo "$TL"
   sleep 0.01
   echo -e "- Android：\c"
   echo "$AndroidVersion"
